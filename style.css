@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color:wheat ;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+ /*                                                                  Navbar                 */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(90, 0, 33);
+    height: 80px;
+}
+.left{
+   font-size: 1.9rem;
+}
+nav ul  {
+    display: flex;
+    justify-content: center ;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul a li{
+    color: wheat;
+    text-decoration: none;
+}
+nav ul a li:hover{
+    color: rgb(0, 0, 33);
+    background-color: rgb(102, 150, 24);
+    border-radius: 5px; 
+    padding: 5px 10px;
+}
+/*                                                                                  SECTION                             */
+.rightsection img{
+    border-radius: 15px;
+    
+
+}
+
+.firstSection{
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+.firstSection>div{
+    width: 29%;
+    height: 200px;   
+}
+.leftsection{
+    font-size:2rem;
+    margin:40px 0;
+    width: 70%;
+}
+.purple{
+    color: blueviolet;
+}
+/*                                                                    SecondSection                                */
+.Secondsection{
+    max-width: 80vw;
+    margin:  auto;
+    height: 40vw;
+}
+hr{
+    background-color: rgb(0,167,56);
+    margin: 40px 84px;
+}
+.text-gray{
+    color:gray;
+}
+.box{
+    background: white;
+    width: 80%;
+    height: 3px;
+    margin: 17px;
+    display: flex;
+}
+.vertical-title{
+    margin: 17px;
+}
+.vertical img{
+    width: 50%;
+    margin: 20px;
+    border-radius: 10px;
+}
+ /*                                                                    footer-css                                  */
+body {
+        margin: 0;
+    font-family: Arial,  sans-serif;
+}
+/*                                                        Footer styles */
+.footer{
+    background-color: rgb(90, 0, 33);
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-section{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.footer-section h2{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+.footer-section p,
+.footer-section ul{
+    margin: 10 px 0;
+    padding: 0;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li{
+    margin: 5px 0;
+}
+.footer-section ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section ul li a:hover{
+    text-decoration: underline;
+    color: rgb(18, 7, 170);
+}
+.social-link{
+    margin: 10px;
+}
+.social-icons{
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-icons img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.copyright{
+    color: #fdfffd;
+  text-align: center;
+  margin-top:20px;
+  border-top: 1px solid #a75454;
+  padding-top: 10px;
+}
+.copyright p{
+    margin:0;
+}
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfoilo</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">ZAYYAN-PORTFOLIO</div>
+        <div class="right">
+          <ul>
+            <a href="/"><li>Home</li></a>
+            <a href="/"><li>About</li></a>
+            <a href="/"><li>Services</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Zayyan</span>
+          <div>I am a Developer</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github Link</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img
+            class="img"
+            src="./img/pexels-photo-4709289.webp"
+            width="440px"
+            />
+        </div>
+
+      </section>
+      <hr>
+      <section class="Secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experienced</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="./img/download.jpeg" alt=""  />
+            <div class="vertical-title">HTML Developer (2024-2025)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem,
+              consequatur quae quod voluptate necessitatibus deserunt
+              consectetur nisi quia, tempore, velit ex cum ipsa blanditiis
+              delectus minima nesciunt veniam possimus dignissimos.
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">Typescript Developer</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              cumque aliquam veritatis eaque libero nemo qui voluptatibus saepe?
+              Voluptate quia delectus architecto similique nobis recusandae nisi
+              fuga rerum, eaque adipisci. Aspernatur excepturi dolor iure!
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer calss="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+            <h2>Contact Us</h2>
+            <p>Email: mail@example.com</p>
+            <p>Phone: (444) 756-8976</p>
+            <p>Address: 896 Main St, Saddar, Karachi ,Pakistan </p>
+        </div>
+        <div class="footer-section">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Follow Us</h2>
+            <div class="social-link">
+                <a href="#" class="social-icons">facebook</a>
+                <a href="#" class="social-icons">Github</a>
+                <a href="#" class="social-icons">Linkedin</a>
+            </div>
+
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; 2025 Zayyan-Portfolio. All rights reserved.
+      </div>
+      </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web </i> Developer.','&amp; Typescript Expert.'],
+            typeSpeed: 70,
+        });
+    </script>
+  </body>
+</html>
